@@ -1,0 +1,42 @@
+html,body{
+    margin: 0px;
+    background-color: #2F4F30;
+    color: #fff;
+}
+
+
+.titulo{
+    text-align: center;
+    background-color: black;
+    color: #fff;
+    padding: 10px 0;
+    font-size: 35px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.titulo:hover{
+    color: gold;
+}
+
+.btn{
+    font-size: 25px;
+    color: #fff;
+    outline: none;
+}
+
+small{
+    color: red;
+    font-size: 40px;
+}
+
+.carta{
+    position: relative;
+    width: 150px;
+    left: 100px;
+    margin-left: -75px;
+}
+
+#pc-cartas, #jugador-cartas{
+    height: 280px;
+}
